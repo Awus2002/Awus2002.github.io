@@ -1,0 +1,156 @@
+.nav-menu{
+	background-color: #fafafa;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position: fixed;
+	width: 100%;
+	top: -8px;
+	}
+body{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background: #2e92de;
+	margin: 0;
+	padding: 0;
+}
+.logo-menu{
+	display: flex;
+	align-items: center;
+}
+.logo-menu img{
+	width: 50px;
+}
+.nombre-pagina{
+	font-size: 1.2rem;
+	margin-left: 3px;
+	box-shadow: 10px 6px 5px #ccc;
+}
+.menu li a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	padding: 30px;
+	display: block;
+}
+.container{
+    /* border: 1px solid red; */
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+	background-color:#2e92de;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background:aqua;
+}
+.menu img{
+	height: 60px;
+	padding: 10px;
+
+}
+#titulo{
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+}
+.texto{
+	font-size: 23px;
+	font-weight: lighter;
+	
+}
+.texto-surge{
+	font-size: 23px;
+	font-weight: lighter;
+	text-align: justify;
+	width: 600px;
+}
+.img-surge{
+	height: 400px;
+}
+.idea{
+	height: 300px;
+}
+#subtitulo{
+font-size: 25px;
+color:rgba(255, 251, 251, 0.661);
+}
+.combinacion{
+	font-size: 23px;
+	font-weight: lighter;
+	text-align: justify;
+	width: 500px;
+}
+.bobi{
+	position: relative;
+	bottom: 400px;
+}
+.pie-pagina{
+	width: 100%;
+	background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
+	padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+	width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+	color: #fafafa;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+color: #efefef;
+margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+	display: inline-block;
+	text-decoration: none;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	color: #efefef;
+	margin-right: 10px;
+	background-color: #0d2033;
+	text-align: center;
+	transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+	color: aqua;
+}
+.pie-pagina .grupo-2{
+	background-color: #0a1a2a;
+	padding: 15px 10px;
+	text-align: center;
+	color: #efefef;
+}
+.pie-pagina .grupo-2 small{
+	font-size: 15px;
+}
+@media screen and (max-width:800px){
+	.pie-pagina .grupo-1{
+		width: 90%;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 30px;
+		padding: 35px 0px;
+	}
+}
